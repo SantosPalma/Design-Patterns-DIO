@@ -1,0 +1,80 @@
+### Arquivos gerados pelo build ###
+/target/
+!/target/classes/
+!/target/test-classes/
+!.mvn/wrapper/maven-wrapper.jar
+build/
+out/
+bin/
+*.jar
+*.war
+*.ear
+*.class
+
+### Logs ###
+*.log
+!**/src/main/**/*.log
+!**/src/test/**/*.log
+logs/
+
+### IDEs ###
+# STS
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+# IntelliJ
+.idea/
+*.iws
+*.iml
+*.ipr
+*.ids
+*.orig
+
+# NetBeans
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# VS Code
+.vscode/
+
+### Sistema Operacional ###
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+### Banco de dados ###
+*.h2.db
+*.mv.db
+*.db
+*.sqlite
+
+### Configurações sensíveis ###
+.env
+.env.*
+!.env.example
+*.keystore
+*.jks
+*.p12
+*.cer
+*.crt
+*.key
+*.pub
+
+### Arquivos Maven ###
+dependency-reduced-pom.xml
+.mvn/timing.properties
+
+### Outros ###
+HELP.md
+*.bak
+*.tmp
+*.swp
+*~
